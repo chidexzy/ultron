@@ -459,14 +459,9 @@ class Main:
 		if select in ["2", "02"]:
 			resultmenu()
 		if select in ["3", "03"]:
-			import OS
-			try:
-			    os.system("rm -rf ultron.py ; git clone https://github.com/chidexzy/ultron ; cd ultron ; cp ultron.py /data/data/com.termux/files/home/ultron ; cd ; cd ultron ; rm -rf ultron")
-			    xox("\033[92;1m\n TOOL UPDATE SUCCESSFUL 👍\n")
-			    os.system("python ultron.py")
-			 except KeyboardInterrupt:
-			    print("\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n")
-			    Main()
+			xox("\033[92;1m\n Under Construction ❌🚫\n")
+			time.sleep(1.5)
+			Main()
 		if select in ["0"]:
 			exit()
 		else:
