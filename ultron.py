@@ -134,9 +134,13 @@ def resultmenu():
 	print("\033[90;1m [0] BACK \n")
 	menukey=input('\033[34;1m [#] Select : \033[92;1m')
 	if menukey in ['1','01']:
-		checkcps()
+		xox("\033[92;1m\n Under Construction ❌🚫\n")
+		time.sleep(1.5)
+		Main()
 	elif menukey in ['2','02']:
-		checkoks()
+		xox("\033[92;1m\n Under Construction ❌🚫\n")
+		time.sleep(1.5)
+		Main()
 	elif menukey in ['0']:
 	    Main()
 	else:
