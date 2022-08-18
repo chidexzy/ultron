@@ -47,7 +47,6 @@ from rich import print as cetak
 from rich.markdown import Markdown as mark
 from rich.columns import Columns as col
 from urllib.parse import quote
-from colour import Color
 # UA LIST
 #ugen2=open('frec.txt','r').read().splitlines()
 #ugen=open('m.txt','r').read().splitlines()
@@ -81,8 +80,7 @@ K = '\033[95m'
 kk = '\033[33m' 
 b = '\33[1;96m' 
 p = '\x1b[0;34m' 
-red = Color("red")
-colors = list(red.range_to(Color("green"),10))
+
 # Converter 
 dic = {'1':'January','2':'February','3':'March','4':'April','5':'May','6':'June','7':'July','8':'Agustus','9':'September','10':'October','11':'November','12':'December'}
 dic2 = {'01':'January','02':'February','03':'March','04':'April','05':'May','06':'June','07':'July','08':'Agustus','09':'September','10':'October','11':'November','12':'December'}
