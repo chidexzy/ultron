@@ -458,10 +458,6 @@ class Main:
 			File()
 		if select in ["2", "02"]:
 			resultmenu()
-		if select in ["3", "03"]:
-			xox("\033[92;1m\n Under Construction ❌🚫\n")
-			time.sleep(1.5)
-			Main()
 		if select in ["0"]:
 			exit()
 		else:
