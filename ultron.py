@@ -125,55 +125,6 @@ def jalan(z):
 		sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
 ############### #LOGO############## ## 
 
-#check_results
-def resultmenu():
-	clear()
-	print(logo);
-	print ('\033[31;1m [01] CHECKPOINTS ')
-	print ('\033[32;1m [02] EXCELLENT ')
-	print("\033[90;1m [0] BACK \n")
-	menukey=input('\033[34;1m [#] Select : \033[92;1m')
-	if menukey in ['1','01']:
-		xox("\033[92;1m\n Under Construction ❌🚫\n")
-		time.sleep(1.5)
-		Main()
-	elif menukey in ['2','02']:
-		xox("\033[92;1m\n Under Construction ❌🚫\n")
-		time.sleep(1.5)
-		Main()
-	elif menukey in ['0']:
-	    Main()
-	else:
-		Main()
-
-def checkcps():
-    clear()
-    print(logo)
-    print("\t\033[93;1m YOUR CHECKPOINTS")
-    print("")
-    cps = open('cp.txt','r').read()
-    print ("\033[1;97m"+cps)
-    print("")
-    raw_input("\n\033[92;1m Press ENTER to Save and go Back")
-    os.system("cp cp.txt /storage/emulated/0/ultron")
-    xox("\n\033[91;1m CHECKPOINTS SAVED SUCCESSFULLY 👍")
-    time.sleep(1.5)
-    Main()
-    
-def checkoks():
-    clear()
-    print(logo)
-    print("\t\033[93;1m YOUR EXCELLENT")
-    print("")
-    oks = open('ok.txt','r').read()
-    print ("\033[1;97m"+oks)
-    print("")
-    raw_input("\n\033[92;1m Press ENTER to Save and go Back")
-    os.system("cp ok.txt /storage/emulated/0/ultron")
-    xox("\n\033[91;1m EXCELLENT SAVED SUCCESSFULLY 👍")
-    time.sleep(1.5)
-    Main()
-
 # LOGIN
 def Public():
 	clear()
@@ -456,8 +407,6 @@ class Main:
 		select =input("\033[34;1m Choose : \033[92;1m")
 		if select in ["1", "01"]:
 			File()
-		if select in ["2", "02"]:
-			resultmenu()
 		if select in ["0"]:
 			exit()
 		else:
