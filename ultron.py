@@ -465,8 +465,8 @@ class Main:
 			    xox("\033[92;1m\n TOOL UPDATE SUCCESSFUL 👍\n")
 			    os.system("python ultron.py")
 			 except KeyboardInterrupt:
-			     print("\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n")
-			     Main()
+			    print("\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n")
+			    Main()
 		if select in ["0"]:
 			exit()
 		else:
